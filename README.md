@@ -37,7 +37,7 @@ Open [http://localhost:3001](http://localhost:3001) with your browser to see the
 - `pnpm format:check`: Check code formatting
 
 ## Project Structure
-
+This is the project struture
 ```
 kenley-group/
 ├── src/
