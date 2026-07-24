@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #f4efe0;
+
+  --cream: #f4efe0;
+  --cream-muted: rgba(244, 239, 224, 0.55);
+  --cream-faint: rgba(244, 239, 224, 0.28);
+
+  --green: #3f7a69;
+  --green-pale: #a3c1ad;
+
+  --line: rgba(244, 239, 224, 0.14);
+
+  --hero-padding-top: 110px;
+  --hero-padding-bottom: 90px;
+
+  --hero-heading-size: clamp(2rem, 5.2vw, 3.4rem);
+  --section-heading-size: clamp(1.5rem, 3vw, 2.1rem);
+
+  --body-large: 1.05rem;
+
+  --hero-max-width: 19ch;
+  --body-max-width: 56ch;
+
+  --button-padding-x: 26px;
+  --button-padding-y: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.nav-text {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.button-text {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  text-transform: uppercase;
+}

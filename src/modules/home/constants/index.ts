@@ -1,0 +1,7 @@
+export * from "./about";
+export * from "./hero";
+export * from "./navbar";
+export * from "./pillars";
+export * from "./approach";
+export * from "./referrals";
+export * from "./footer";
