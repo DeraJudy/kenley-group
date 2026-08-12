@@ -1,5 +1,9 @@
-import { Approach, Hero, Navbar, Referrals } from "@/src/modules/home/index";
-import About from "../modules/home/components/About";
+import {
+  BlackStrip,
+  FeatureGroups,
+  Hero,
+  Navbar,
+} from "@/src/modules/home/index";
 import Footer from "../modules/home/components/Footer";
 
 export default function HomePage() {
@@ -7,9 +11,11 @@ export default function HomePage() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Approach />
-      <Referrals />
+      <FeatureGroups />
+      {/* <About /> */}
+      {/* <Approach /> */}
+      {/* <Referrals /> */}
+      <BlackStrip />
       <Footer />
     </>
   );

@@ -1,12 +1,15 @@
 import { Container } from "@/src/components/shared/Container";
 
-import { FOOTER } from "../constants/index";
+import { FOOTER } from "../constants";
 
 import FooterBrand from "./FooterBrand";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="py-[56px] pb-[64px]">
+    <footer
+      id="contact"
+      className="border-t border-[var(--line-dark)] bg-black py-[56px] pb-[64px] text-[var(--cream)]"
+    >
       <Container>
         <div className="flex flex-wrap items-baseline justify-between gap-8">
           <FooterBrand />

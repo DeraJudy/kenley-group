@@ -5,3 +5,5 @@ export * from "./pillars";
 export * from "./approach";
 export * from "./referrals";
 export * from "./footer";
+export * from "./features";
+export * from "./black-strip";

@@ -37,3 +37,21 @@ export interface FooterData {
   location: string;
   description: string;
 }
+
+export interface FeatureCard {
+  id: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  action: string;
+  href: string;
+  variant?: "default" | "black";
+  live?: boolean;
+}
+
+export interface FeatureGroup {
+  id: string;
+  title: string;
+  columns: 3 | 4;
+  cards: FeatureCard[];
+}
